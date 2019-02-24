@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+    @import url('https://fonts.googleapis.com/css?family=Metal+Mania');
 * {
     margin: 0 auto;
     font-family: 'Metal Mania', cursive;
@@ -202,9 +202,9 @@ detailed-features {
     text-align: center;
 }
 
-.feedback-form #name:placeholder-shown,
-.feedback-form #email:placeholder-shown,
-.feedback-form #message:placeholder-shown {
+.feedback-form #name::placeholder,
+.feedback-form #email::placeholder,
+.feedback-form #message:placeholder {
     color: #445162;
     font-size: 16px;
     font-weight: 400;
@@ -215,23 +215,26 @@ detailed-features {
 .vcard {
     float: right;
     margin-top: 31px;
-    margin-right: 350px;
-    overflow: hidden;
-    clear: both;
+    margin-right: 290px;
 }
 
-.email, .phone {
+.email,
+.phone {
     margin-top: 29px;
-} 
-
-.fab fa-skype, fas fa-at, fas fa-phone {
-    float: left;
-    font-size:24px;
-    background:black;
-    color:white;
 }
 
-.skype p, .email p, .phone p {
+.fab fa-skype,
+.fas fa-at,
+.fas fa-phone {
+    float: left;
+    font-size: 24px;
+    background: black;
+    color: white;
+}
+
+.skype p,
+.email p,
+.phone p {
     display: inline;
     color: #ffffff;
     font-size: 16px;
@@ -243,5 +246,4 @@ detailed-features {
 
 .share {
     float: right;
-    margin-right: 290px;
-    margin-bottom: 174px;
+    margin-top: 32px;
