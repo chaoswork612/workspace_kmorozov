@@ -1,11 +1,7 @@
-    @import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
 * {
     margin: 0 auto;
     font-family: 'Metal Mania', cursive;
-}
-
-.body {
-    width: 1280px;
 }
 
 .product-name {
@@ -76,6 +72,13 @@ main {
     overflow: hidden;
 }
 
+.about video {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+
 .about p {
     width: 649px;
     float: left;
@@ -136,12 +139,12 @@ detailed-features {
 .contact-info {
     width: 1280px;
     background-color: black;
-    margin-top: 50px;
     clear: both;
 }
 
 .contacts {
     float: left;
+    height:22px;
     color: #ffffff;
     font-size: 30px;
     font-weight: 400;
@@ -153,7 +156,8 @@ detailed-features {
 
 .feedback-form {
     display: inline-grid;
-    margin-top: 30px;
+    margin-top: 53px;
+    border: 0 none;
 }
 
 .feedback-form #name {
@@ -163,6 +167,7 @@ detailed-features {
     text-indent: 10px;
     width: 500px;
     height: 40px;
+    margin-top: 31px;
     margin-left: 249px;
 }
 
@@ -214,8 +219,9 @@ detailed-features {
 
 .vcard {
     float: right;
-    margin-top: 31px;
+    margin-top: 106px;
     margin-right: 290px;
+    border: 0 none;
 }
 
 .email,
@@ -245,5 +251,7 @@ detailed-features {
 }
 
 .share {
+    position: absolute;
     float: right;
     margin-top: 32px;
+}
