@@ -1,11 +1,7 @@
-    @import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
 * {
     margin: 0 auto;
     font-family: 'Metal Mania', cursive;
-}
-
-.body {
-    width: 1280px;
 }
 
 .product-name {
