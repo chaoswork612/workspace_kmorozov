@@ -41,6 +41,7 @@ header h5 {
 
 header img {
     background-color: black;
+    background-size: cover;
     float: right;
     margin-top: 50px;
     margin-right: 50px;
@@ -136,15 +137,72 @@ detailed-features {
     margin: 0;
 }
 
+.purchase {
+    width: 640px;
+    height: 150px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.purchase legend {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.purchase label {
+    float: left;
+    width: 200px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: darkred;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.purchase select {
+    float: left;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    
+}
+
+.purchase a {
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 0px 0 4.85px 0.15px rgba(33, 33, 33, 1);
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    clear: both;
+
+}
+
 .contact-info {
     width: 1280px;
     background-color: black;
     clear: both;
 }
 
-.contacts {
+.contact-info legend {
     float: left;
-    height:22px;
     color: #ffffff;
     font-size: 30px;
     font-weight: 400;
@@ -217,9 +275,9 @@ detailed-features {
     text-align: left;
 }
 
-.vcard {
+.contacts {
     float: right;
-    margin-top: 106px;
+    margin-top: 126px;
     margin-right: 290px;
     border: 0 none;
 }
